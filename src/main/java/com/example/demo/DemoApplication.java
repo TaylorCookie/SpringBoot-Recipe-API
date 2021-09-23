@@ -12,7 +12,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "Use the api by hitting /recipes, /add-recipe, /delete-recipe/{id}, /update-recipe/{id}, /recipe/{id}";
 	}
 
 	public static void main(String[] args) {
